@@ -8,4 +8,19 @@ qc = QuantumCircuit(3)
 for qubit in range(3):
     qc.h(qubit)
 # See the circuit:
-qc.draw()
+#qc.draw()
+
+# Let's see the result
+backend = Aer.get_backend('statevector_simulator')
+final_state = execute(qc,backend).result().get_statevector()
+print(final_state)
+
+qc = QuantumCircuit(2)
+qc.h(0)
+qc.x(1)
+#qc.draw()
+
+backend = Aer.get_backend('unitary_simulator')
+unitary = execute(qc,backend).result().get_unitary()
+
+print(unitary)

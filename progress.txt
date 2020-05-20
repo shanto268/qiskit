@@ -1,2 +1,2 @@
-Qiskit Book: 2.2
+Qiskit Book: 2.3
 Portugal Book: 3
