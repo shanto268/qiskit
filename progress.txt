@@ -1,2 +1,2 @@
 Qiskit Book: 2.3
-Portugal Book: 3
+Portugal Book: 3 + went over chapter 9
