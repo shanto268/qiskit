@@ -1,0 +1,9 @@
+Summer goal:
+    Understand QIC very well, know how to use qiskit and finish Dr. Portugal's book.
+Plan:
+    Finish the quantumBook.pdf
+    Supplement the learning from that book using qiskit book
+    Read Dr. Portugal's book
+Progress:
+    June 7: Started qB. On chapter 1
+        Need to study the Appendix first, then finish chapter 1.
